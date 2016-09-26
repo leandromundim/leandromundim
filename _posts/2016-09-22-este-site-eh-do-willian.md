@@ -4,7 +4,7 @@ title: "Esse site não é meu"
 date: 2016-09-03 15:06:13
 image: '/assets/img/up-to-date/folder.png'
 description: 'Estou aprendendo a programar.'
-main-class: 'dev'
+main-class: 'otm'
 color: '#637a91'
 tags:
 - frontend
