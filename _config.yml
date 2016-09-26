@@ -1,8 +1,11 @@
 # Site settings
 title: Leandro R. Mundim
+email: leandroresendemundim@gmail.com
 description: Plataforma de cursos
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://leandromundim.github.io" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+baseurl: "" 
+url: "https://leandromundim.github.io" 
+twitter_username: drmundim
+github_username:  drmundim
 
 # User settings
 username: Leandro R. Mundim
@@ -27,14 +30,19 @@ compress_html:
 # Links to include in menu navigation
 # For external links add external: true
 links:
-  - title: Inicial
+  - title: Home
     url: /
-  - title: Series
+  - title: Cursos
+    url: /cursos
+  - title: Séries
     url: /series
   - title: Tags
     url: /tags
   - title: Sobre mim
-    url: /about/
+    url: /about
+
+collections:
+  - cursos
 
 # exclude my node related stuff
-exclude: ['package.json', 'src', 'node_modules']
+exclude: ['package.json', 'src', 'node_modules', 'vendor/bundle/ruby']
