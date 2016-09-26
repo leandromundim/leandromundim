@@ -16,7 +16,7 @@ github_username:  drmundim
 
 # Build settings
 markdown: kramdown
-highlighter: coderay
+highlighter: rouge
 permalink: /:title/
 
 
