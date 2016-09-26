@@ -2,30 +2,19 @@
     <h3>Comentários</h3>
     <div id="disqus_thread"></div>
 </section>
-<script type="text/javascript">
-    var disqus_loaded = false;
+<div id="disqus_thread"></div>
+<script>
 
-    function load_disqus()
-    {
-        var disqus_config = function () {
-            this.page.url = '{{ site.url }}{{page.url}}';
-            this.page.identifier = '{{page.url}}';
-        };
-
-        var d = document, s = d.createElement('script');
-        
-        s.src = '//willianjusten.disqus.com/embed.js';
-        
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-
-        disqus_loaded = true;
+    var disqus_config = function () {
+        this.page.url = '{{ site.url }}{{ site.baseurl }}{{ page.url }}'; 
+        this.page.identifier = '{{ page.url }}'; 
     };
-    window.onscroll = function(e) {
-        if ((window.innerHeight + window.scrollY) >= (document.body.offsetHeight - 800)) {
-            //hit bottom of page
-            if (disqus_loaded==false)
-                load_disqus()
-        }
-    };
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    
+    s.src = '//leandromundim.disqus.com/embed.js';
+    
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
 </script>
