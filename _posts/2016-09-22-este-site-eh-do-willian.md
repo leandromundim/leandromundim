@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "Esse site não é meu"
-date: 2016-09-03 15:06:13
-image: '/assets/img/up-to-date/folder.png'
+date: 2016-09-22 15:06:13
 description: 'Estou aprendendo a programar.'
 main-class: 'otm'
 color: '#7AAB13'
