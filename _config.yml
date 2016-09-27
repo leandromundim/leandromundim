@@ -1,5 +1,5 @@
 # Site settings
-title: Leandro Mundim
+title:  Mundim da Educação
 email: leandroresendemundim@gmail.com
 description: Plataforma de cursos
 baseurl: "" 
@@ -8,8 +8,8 @@ twitter_username: drmundim
 github_username:  drmundim
 
 # User settings
-username: Leandro R. Mundim
-user_description: Pesquisador e professor
+username: Leandro Mundim
+user_description: Pesquisador e estudante
 email: leandroresendemundim@gmail.com
 twitter_username: drmundim
 github_username:  drmundim
