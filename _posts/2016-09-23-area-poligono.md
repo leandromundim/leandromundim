@@ -3,7 +3,8 @@ layout: post
 title: "Como calcular área de um polígono"
 date: 2016-09-23 00:00:00
 description: 'Calculando área de polígonos convexos e não convexos em C.'
-color: '#4f8793'
+main-class: 'jekyll'
+color: '#B31917'
 tags:
 - C
 - area
