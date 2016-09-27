@@ -5,6 +5,11 @@ layout: compress
 <!DOCTYPE html>
 <html lang="pt-br" itemscope itemtype="http://schema.org/WebPage" {% if page.main-class %}class="post-{{ page.main-class }}"{% endif %}>
     {% include head.html %}
+    <body onload="resizeRock();">
+        <div id="_rock">
+            <img src="https://abrilveja.files.wordpress.com/2016/06/jared-leto-caracterizado-de-coringa-em-primeira-foto-oficial-de-esquadrao-suicida-original2.jpeg?quality=70&strip=all&w=677" alt="Rock" id="rock"/>
+        </div>
+    </body>
     <body>
         {% include svg-icons.html %}
         {% include header-default.html %}
