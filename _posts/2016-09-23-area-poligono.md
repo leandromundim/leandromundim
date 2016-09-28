@@ -9,6 +9,7 @@ tags:
 - C
 - area
 - polígono
+image: "/assets/img/digital-nomad.jpg"
 categories:
 twitter_text: 'Formula fechada para calcular área de polígonos convexos e não convexos. '
 introduction: "Código em C, muito simples, para o cálculo de áreas de polígonos."
