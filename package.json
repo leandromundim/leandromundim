@@ -1,7 +1,7 @@
 {
-  "name": "willianjusten.github.io",
+  "name": "leandromundim.github.io",
   "version": "1.0.0",
-  "description": "Um blog sobre desenvolvimento web focado em frontend.",
+  "description": "Um blog sobre aprendizado.",
   "main": "gulpfile.js",
   "scripts": {
     "test": "test"
@@ -15,7 +15,7 @@
     "jekyll",
     "js"
   ],
-  "author": "Willian Justen de Vasconcellos",
+  "author": "Leandro Mundim",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer-stylus": "^0.4.0",
