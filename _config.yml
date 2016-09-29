@@ -1,9 +1,10 @@
 # Site settings
 title:  Mundim da Educação
 email: leandroresendemundim@gmail.com
-description: Plataforma de cursos
+description: > #lrm
+  Plataforma de cursos
 baseurl: "" 
-url: "https://leandromundim.github.io" 
+url: "https://leandromundim.com" 
 twitter_username: drmundim
 github_username:  drmundim
 
@@ -34,6 +35,8 @@ links:
     url: /
   - title: Cursos
     url: /cursos
+  - title: Séries
+    url: /series
   - title: Tags
     url: /tags
   - title: Sobre mim
