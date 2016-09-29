@@ -42,5 +42,8 @@ links:
   - title: Sobre mim
     url: /about
 
+collections:
+  - cursos
+
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules', 'vendor/bundle/ruby']
