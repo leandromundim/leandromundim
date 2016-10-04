@@ -4,7 +4,7 @@ title: "Como calcular área de um polígono"
 date: 2016-09-23 00:00:00
 description: 'Calculando área de polígonos convexos e não convexos em C.'
 main-class: 'lrm'
-color: '#AA7F39'
+color: '#403075'
 tags:
 - C
 - area
@@ -14,6 +14,7 @@ categories:
 twitter_text: 'Formula fechada para calcular área de polígonos convexos e não convexos. '
 introduction: "Código em C, muito simples, para o cálculo de áreas de polígonos."
 ---
+#Simples, fácil e rápido
 
 Considere um polígono simples, sem auto interseção. 
 
